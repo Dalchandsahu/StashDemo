@@ -7,14 +7,14 @@ import jakarta.persistence.*;
 public class Employee {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+//	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int empId;
 	
 	private String empName;
 	
 	private String empAddr;
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+//	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int empRating;
 	public int getEmpId() {
 		return empId;
